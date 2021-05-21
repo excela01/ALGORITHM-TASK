@@ -24,13 +24,13 @@ convertFahrToCelsius = (_Fahr) => {
     }else{
      
         const C = `${((_Fahr - 32)*(5/9)).toFixed(4)} deg C`
-        console.log(C);
+         return (C);
     }
 }
 convertFahrToCelsius(0);
 
 convertFahrToCelsius({temp:0});
-console.log(convertFahrToCelsius('this boy'));
+//console.log(convertFahrToCelsius('this boy'));
 
 
 
@@ -90,6 +90,6 @@ console.log(convertFahrToCelsius('this boy'));
       }
   
 }
-checkYuGiOh('text');
+//checkYuGiOh('text');
 
-console.log(checkYuGiOh("fizzbuzz is meh"));
+checkYuGiOh("fizzbuzz is meh");
